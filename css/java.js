@@ -1,29 +1,33 @@
-var name=prompt("WHAT IS YOUR NAME?")
-alert("Thank you for visit us "+name);
+var name=prompt("WHAT IS YOUR NAME?");
+alert("Thank you for visit us"+name);
 function myFunction() {
-  confirm("Press a button!");
+  // confirm("Press a button!");
 }
-myFunction()
-var job =prompt("Enter your job") ;
+// myFunction();
+var month =prompt("Enter the month of the year") ;
 var result ;
-if (job==='doctor'|job=== 'pharmacist'|job ==='engineer'){
-  result = ' your salary more than 500 Jd';
-}else if( job=== 'teacher'| job=== 'coach'| job==='government employee'){
-  result = 'your salary equil at least 500 Jd';
-}else if ( job=== 'factory worker'|job=== 'accountant'| job==='supervisor'){
-  result='your salary least than 500 Jd';
-}else if ( job=== 'clean worker'|job==='bulit worker' | job=== 'smith'){
-  result= 'your salary least than 200 Jd';}
+if (month==='december' || month=== 'janyary'||month ==='february'){
+  result = 'nice winter';
+}else if( month=== 'march'|| month=== 'april'|| month==='may'){
+  result = 'nice spring';
+}else if ( month=== 'june'|| month=== 'august'|| month==='july'){
+  result='nice summer';
+}else if ( month=== 'november'|| month==='october' || month=== 'august'){
+  result= 'nice autnum';}
   else{
-   result='you are dont have job';
+   result='nice year';
   }
 document .write( ' <h3>' +result + '</h3>');
 console.log('hi');
-var calculate=prompt ("5*7=");
-while (calculate!= 35) {
-  calculate = prompt ("Sorry incorrect awnswer , 5*7");
+var calculate=prompt ("3*4=");
+while (calculate!= 12) {
+  calculate = prompt ("Sorry incorrect awnswer");
 }
-if (calculate == 35) {
+if (calculate == 12) {
 alert ("this is true");
 }
-    
+var hello="hello";
+var i;
+for (i= 1; i<5 ; i=i+1 ){
+  // console.log (i++);
+  document.write('<p>'+ hello +'</p>');}
