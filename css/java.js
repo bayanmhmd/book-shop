@@ -1,5 +1,5 @@
 var name=prompt("WHAT IS YOUR NAME?");
-alert("Thank you for visit us"+name);
+alert("Thank you for visit us"   +name);
 function myFunction() {
   // confirm("Press a button!");
 }
